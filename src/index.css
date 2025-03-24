@@ -1,9 +1,13 @@
 @import "tailwindcss";
 
-
-.epilogue-<uniquifier> {
+body{
+  box-sizing: border-box;
+  width: 100%;
+  overflow: auto;
+}
+.epilogue-font {
     font-family: "Epilogue", sans-serif;
     font-optical-sizing: auto;
-    font-weight: <weight>;
+    font-weight: 600;
     font-style: normal;
   }
