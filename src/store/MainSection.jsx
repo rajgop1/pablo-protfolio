@@ -139,7 +139,7 @@ function MainSection() {
             </section>
 
 
-            <section className='w-[81%] mt-[8%] mb-[8%]   mx-auto '>
+            <section className='w-[81%] mt-[8%] mb-[4%]   mx-auto '>
                 <h3 className='text-center text-[32px] font-semibold  mx-auto'>
                     Clients
                 </h3>
@@ -210,7 +210,6 @@ function MainSection() {
                     </div>
                 </div>
 
-                <hr className='w-[82%] mx-auto text-gray-400 ' />
 
 
 
@@ -218,6 +217,7 @@ function MainSection() {
 
             </section>
 
+                <hr className='w-[82%] mx-auto text-gray-400 mt-[100px]' />
 
 
         </main>
