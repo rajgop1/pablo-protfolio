@@ -1,9 +1,9 @@
 import { useState } from 'react'
-import  Footer from'./Footer.jsx'
-import Header from './header.jsx'
-import MainSection from './MainSection.jsx'
+import  Footer from'./store/Footer.jsx'
+import Header from './store/Header.jsx'
+import MainSection from './store/MainSection.jsx'
 import './App.css'
-
+import About_MainSection from './store/About_MainSection.jsx'
 function App() {
 
   
@@ -11,7 +11,7 @@ function App() {
   return (
     <div className="box-border epilogue-font overflow-auto ">
       <Header />
-      <MainSection />
+        <About_MainSection/>
       <Footer />
     </div>
   )

@@ -1,6 +1,11 @@
+import React from "react"
+
+
+
 function Footer() {
     return (
         <footer className='mt-[35px] w-[82%] mx-auto flex flex-col lg:flex-row '>
+            
             <div className='lg:w-[50%] pr-[16%] mt-[35px]'>
                 <h3 className='font-semibold text-[32px] pb-[40px]'>
                     Let’s work together

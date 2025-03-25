@@ -1,13 +1,15 @@
 @import "tailwindcss";
 
-body{
-  box-sizing: border-box;
-  width: 100%;
-  overflow: auto;
+s.epilogue-font {
+  font-family: "Epilogue", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
 }
-.epilogue-font {
-    font-family: "Epilogue", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 600;
-    font-style: normal;
-  }
+.color-green{
+ background-color: #009379;
+}
+
+* {
+  box-sizing: border-box;
+}

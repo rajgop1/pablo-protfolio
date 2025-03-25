@@ -1,14 +1,18 @@
+
+import React from "react"
+
+
 function MainSection() {
     return (
         <main className="w-[100%] self-center justify-self-center p-0 m-0">
 
-            <section className='w-[82%] mx-auto flex lg:flex-row flex-col mt-[9%] mb-[9%] items-center justify-evenly'>
+            <section className='w-[82%] mx-auto flex lg:flex-row flex-col mt-[9%] mb-[9%] items-center justify-evenly text-center'>
                 <div className='font-semibold text-xl w-[100%] lg:w-[50%] my-auto mt-[5.5%] mb-[5.5%] w-[50%]'>
-                    <p>Branding | Image making</p>
-                    <h1 className=' mt-[5.5%] mb-[5.5%] lg:text-[80px] text-[48px]'>My awesome portfolio</h1>
-                    <p>And I made it myself! Yes. In Figma with Anima</p>
+                    <p className="lg:text-left">Branding | Image making</p>
+                    <h1 className=' mt-[5.5%] mb-[5.5%] text-[48px]  sm:text-[80px] lg:text-left'>My awesome portfolio</h1>
+                    <p className="lg:text-left">And I made it myself! Yes. In Figma with Anima</p>
                 </div>
-                <div className=' h-[100%] overflow-none '>
+                <div className=' h-[100%] overflow-none md:w-[80%] lg:w-[50%]'>
                     <img className="object-cover" src="https://s3-alpha-sig.figma.com/img/1b00/c47e/f046255e030c6eb7c1be703ce950efd3?Expires=1743984000&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=eOzgyH3X61D1~LlNvWXxvmC9taobq97X8Vqf8OTjA2GWRC1kURcZVZkNsZPMCp3bOkZ56n-x19Xr64f66Pnzm82eoxyz40D1TwFlMJeWdxUBvYgYKErJMEZWCgLbMx2-Lm6Q1IuU0UN25SUtGfzlx7lXjax7iK7pS5a5DaGb3Mwb2BT4pzseCcHCeSCbhjUqi2xtmtn~6cH9ryj5WUF2RadDIgVWXRkUt1lpT2SKPdXmqkMb3KgtnYEHla2QEBNltxbmTekQJXoWALVDgpRC4of5CgkefgRo9OqH2x0QTpm9E2Gq7~O8KLpBUU4yPYLoYrTcAr-mwUasfiz6SWEQkw__" alt="" />
                 </div>
             </section>
@@ -20,12 +24,12 @@ function MainSection() {
             <hr className='w-[82%] mx-auto text-gray-400  ' />
 
 
-            <section className='grid gap-4 grid-cols-[repeat(auto-fit,minmax(120px,1fr))] justify-evenly  w-[82%] mx-auto pt-[60px] pb-[60px]  text-center'>
-                <div >apoorva</div>
-                <div >apoorva</div>
-                <div >apoorva</div>
-                <div >apoorva</div>
-                <div >apoorva</div>
+            <section className='grid gap-12 grid-cols-[repeat(auto-fit,minmax(100px,1fr))] justify-evenly  w-[82%] mx-auto pt-[60px] pb-[60px]  text-center items-center justify-center overflow-hidden'>
+                <div><img className="self-center " src="src\assets\Google.png" alt="" /></div>
+                <div><img className="self-center " src="src\assets\Awwwards.png" alt="" /></div>
+                <div><img className="self-center " src="src\assets\Dribbble.png" alt="" /></div>
+                <div><img className="self-center " src="src\assets\Google.png" alt="" /></div>
+                <div><img className="self-center " src="src\assets\Google.png" alt="" /></div>
             </section>
 
 
@@ -206,6 +210,7 @@ function MainSection() {
                     </div>
                 </div>
 
+                <hr className='w-[82%] mx-auto text-gray-400 ' />
 
 
 
@@ -214,7 +219,6 @@ function MainSection() {
             </section>
 
 
-            <hr className='w-[82%] mx-auto text-gray-400 ' />
 
         </main>
     )
