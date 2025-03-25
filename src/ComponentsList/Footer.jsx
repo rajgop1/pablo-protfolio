@@ -22,21 +22,12 @@ function Footer() {
             </div>
 
 
-            <form className='lg:w-[50%] flex flex-col gap-[20px] pb-[70px] mt-[35px]'>
-                <div className='p-[30px] h-[69px] bg-gray-100'>
-                    <label className='pr-[20px] text-gray-600 text-[17px]' htmlFor="#name">Name</label>
-                    <input id='name' type="text" placeholder='' />
-                </div>
+            <form className='lg:w-[50%] flex flex-col gap-[20px] pb-[70px] mt-[35px] justify-start'>
+                    <input  type="text" placeholder='Name'className='p-[30px] h-[69px] bg-gray-100 ' />
 
-                <div className='p-[30px] h-[69px] bg-gray-100'>
-                    <label className='pr-[20px] text-gray-600 text-[17px]' htmlFor="#email">Email</label>
-                    <input id='email' type="email" placeholder='' />
-                </div>
+                    <input  type="email" placeholder='Email' className='p-[30px] h-[69px] bg-gray-100' />
 
-                <div className='p-[30px] h-[231px] bg-gray-100'>
-                    <label className='pr-[20px] text-gray-600 text-[17px]' htmlFor="#name">Type Your Message Here</label>
-                    <input className='' id='name' type="text" placeholder='' />
-                </div>
+                    <input  type="text" placeholder='Type your Message Here' className=' p-[30px] h-[300px] bg-gray-100'/>
 
                 <button className='mt-[20px] bg-black text-white text-[20px] font-semibold w-[235px] h-[80px] '>
                     Submit

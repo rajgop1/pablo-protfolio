@@ -1,6 +1,6 @@
 import React from 'react'
 
-function About_MainSection() {
+function AboutMainSection() {
   return (
     <main>
       <section className='bg-pink-100'>
@@ -13,7 +13,7 @@ function About_MainSection() {
             <p className='text-[17px]'>Designer & Unicorn Trainer</p>
           </div>
           <div>
-            <h2 className='font-bold text-[17px] pt-[78px] sm:pt-0'>Bio</h2>
+            <h2 className='font-bold text-[17px] pt-[78px] sm:pt-0'>Bio:</h2>
             <p className='text-[17px] lg:w-[515px] '>
               Father of 3 humans, 5 unicorns & 2 dogs, I design since I can remember it. I often get asked where I get my inspiration from: in everyday’s lil’ details. And sometimes in leftover food I find in my beard.
             </p>
@@ -38,4 +38,4 @@ function About_MainSection() {
   )
 }
 
-export default About_MainSection
+export default AboutMainSection
